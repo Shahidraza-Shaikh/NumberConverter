@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:id="@+id/tool"
+            android:background="@color/colorPrimary"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/Theme.AppCompat.Light"
+            android:elevation="4dp">
+
+    </android.support.v7.widget.Toolbar>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CONVERTER"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:id="@+id/conv"
+            android:layout_marginTop="27dp"
+            android:gravity="center_horizontal"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dec:"
+            android:textSize="20sp"
+            android:id="@+id/dec"
+            android:layout_marginTop="30dp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etdec"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="10dp"
+            android:hint="Enter the decimal number.."
+            android:inputType="number|numberDecimal"
+            android:digits="0123456789"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bin:"
+            android:textSize="20sp"
+            android:id="@+id/bin"
+            android:layout_marginTop="30dp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etbin"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="10dp"
+            android:hint="Enter the binary number.."
+            android:inputType="number|numberDecimal"
+            android:digits="01"
+            android:textSize="16dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Oct:"
+            android:textSize="20sp"
+            android:id="@+id/oct"
+            android:layout_marginTop="30dp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etoct"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="10dp"
+            android:hint="Enter the Octal number.."
+            android:inputType="number|numberDecimal"
+            android:digits="01234567"
+            android:textSize="16dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hex:"
+            android:textSize="20sp"
+            android:id="@+id/hex"
+            android:layout_marginTop="30dp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ethex"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="10dp"
+            android:hint="Enter the Hexa number.."
+            android:inputType=""
+            android:digits="0123456789ABCDEF"
+            android:textSize="16dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="22dp"
+            android:text="Clear"
+            android:id="@+id/button"
+            android:textSize="23sp"
+            android:textColor="@color/text">
+    </Button>
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+

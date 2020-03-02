@@ -1,0 +1,27 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string name="app_name">Convert It</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_Close">Close navigation drawer</string>
+    <string name="about">
+           "Convert It"
+    </string>
+    <string name="creater">
+        CREATED BY:\n
+       \t\t\t\tSHAIKH SHAHID\n
+        \t\t\t\tSHAIKH AMAAN\n
+        \t\t\t\tABDUL RAHIM\n
+        \t\t\t\tKHAN ASHRAF
+    </string>
+
+    <string name="app_desc">
+        This app is about Number System Conversion.\nIn this app, We have design such a system that it will performs number conversion from one number system to another.
+        \nIt is dynamic conversion in which when user enter the number in particular number system then automatically it wil converted into another number system.
+        \nWe have also provided tutorial for better understanding for the user that how conversion take place or methods to convert number system.
+    </string>
+
+    <string name="mam">
+        UNDER THE GUIDANCE OF:\n
+          \tPROF. REHAAL QURESHI
+
+    </string>
+</resources>
